@@ -13,10 +13,11 @@ import java.util.HashMap;
 public class AnalizadorAccesosAServidor
 {
     private ArrayList<Acceso> registros;
-    
+    /**
+     * Constructor para la clase AnalizadorAccessoAServidor.
+     */
     public AnalizadorAccesosAServidor()
     {
-        
         registros = new ArrayList<Acceso>();
     }
     
